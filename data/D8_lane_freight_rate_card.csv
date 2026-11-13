@@ -1,0 +1,16 @@
+lane_id,origin,destination,mode,route_variant,normal_transit_days,current_transit_days,freight_inr_per_kg,war_risk_surcharge_inr_per_kg,status_20oct2026,notes,data_origin
+LN-01,Jubail/Dammam,Mundra,Sea,Direct via Strait of Hormuz,6,,4.5,0.0,Closed,Effectively closed since Mar 2026,SYNTHETIC
+LN-02,Jebel Ali,Mundra,Sea,Direct via Strait of Hormuz,5,,4.2,0.0,Closed,Effectively closed since Mar 2026,SYNTHETIC
+LN-03,Jebel Ali (trucked to Khor Fakkan),Mundra,Road + Sea,Port outside the strait - Khor Fakkan,5,15.0,7.8,1.6,Open - congested,Adds ~8-11 days; truck leg 2 days,SYNTHETIC
+LN-04,Jebel Ali (trucked to Fujairah),Mundra,Road + Sea,Port outside the strait - Fujairah,5,14.0,7.5,1.6,Open - congested,Adds ~9 days,SYNTHETIC
+LN-05,Jubail (trucked to Sohar),Mundra,Road + Sea,Port outside the strait - Sohar,6,19.0,9.4,1.6,Open - congested,Adds ~12-13 days; cross-border trucking,SYNTHETIC
+LN-06,Jubail/Jebel Ali,Mumbai (BOM air),Air,Air freight (DG class 3 limits apply),2,3.0,165.0,0.0,Restricted,Bulk flammable solvents: DG limits make air impractical; cost ~20x sea,SYNTHETIC
+LN-07,Shanghai/Ningbo/Qingdao/Tianjin,Nhava Sheva (JNPT),Sea,Via Malacca Strait,18,20.0,6.0,0.0,Open,Normal,SYNTHETIC
+LN-08,Shanghai,Mumbai (BOM air),Air,Air freight,3,4.0,310.0,0.0,Open,Used for urgent API only,SYNTHETIC
+LN-09,Hamburg/Genoa,Nhava Sheva (JNPT),Sea,Via Cape of Good Hope,38,40.0,9.5,0.8,Open,Red Sea avoided since 2024,SYNTHETIC
+LN-10,Hamburg/Genoa,Nhava Sheva (JNPT),Sea,Via Suez / Bab-el-Mandeb,24,,6.5,3.0,Restricted,Carriers not offering,SYNTHETIC
+LN-11,Frankfurt/Milan,Mumbai (BOM air),Air (cold chain),Air freight 2-8 C,3,3.0,780.0,0.0,Open,Active temperature-controlled containers,SYNTHETIC
+LN-12,New York (JFK),Mumbai (BOM air),Air (cold chain),Air freight 2-8 C,4,4.0,920.0,0.0,Open,Active temperature-controlled containers,SYNTHETIC
+LN-13,Dahej/Tarapur/Vapi/Daman,Ahmedabad plant,Road,Domestic road,1,1.0,2.2,0.0,Open,Monsoon risk Jul-Sep,SYNTHETIC
+LN-14,Dahej/Tarapur/Vapi/Daman,Baddi plant,Road,Domestic road,4,4.0,4.8,0.0,Open,Himachal landslide risk Jul-Sep,SYNTHETIC
+LN-15,Newark,Nhava Sheva (JNPT),Sea,Via Cape of Good Hope,40,42.0,10.5,0.8,Open,,SYNTHETIC

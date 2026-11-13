@@ -1,0 +1,68 @@
+product_id,product_name,dosage_form,plants,nlem_essential,material_id,data_origin
+FG-01,Paracetamol 500 mg tablets,Tablet,BAD;AHD,Y,M-001,SYNTHETIC
+FG-01,Paracetamol 500 mg tablets,Tablet,BAD;AHD,Y,M-020,SYNTHETIC
+FG-01,Paracetamol 500 mg tablets,Tablet,BAD;AHD,Y,M-022,SYNTHETIC
+FG-01,Paracetamol 500 mg tablets,Tablet,BAD;AHD,Y,M-024,SYNTHETIC
+FG-01,Paracetamol 500 mg tablets,Tablet,BAD;AHD,Y,M-025,SYNTHETIC
+FG-01,Paracetamol 500 mg tablets,Tablet,BAD;AHD,Y,M-026,SYNTHETIC
+FG-01,Paracetamol 500 mg tablets,Tablet,BAD;AHD,Y,M-014,SYNTHETIC
+FG-01,Paracetamol 500 mg tablets,Tablet,BAD;AHD,Y,M-015,SYNTHETIC
+FG-02,Paracetamol 650 mg tablets,Tablet,BAD,Y,M-001,SYNTHETIC
+FG-02,Paracetamol 650 mg tablets,Tablet,BAD,Y,M-020,SYNTHETIC
+FG-02,Paracetamol 650 mg tablets,Tablet,BAD,Y,M-022,SYNTHETIC
+FG-02,Paracetamol 650 mg tablets,Tablet,BAD,Y,M-025,SYNTHETIC
+FG-02,Paracetamol 650 mg tablets,Tablet,BAD,Y,M-026,SYNTHETIC
+FG-02,Paracetamol 650 mg tablets,Tablet,BAD,Y,M-015,SYNTHETIC
+FG-03,Metformin 500 mg tablets,Tablet,BAD;AHD,Y,M-002,SYNTHETIC
+FG-03,Metformin 500 mg tablets,Tablet,BAD;AHD,Y,M-023,SYNTHETIC
+FG-03,Metformin 500 mg tablets,Tablet,BAD;AHD,Y,M-022,SYNTHETIC
+FG-03,Metformin 500 mg tablets,Tablet,BAD;AHD,Y,M-025,SYNTHETIC
+FG-03,Metformin 500 mg tablets,Tablet,BAD;AHD,Y,M-026,SYNTHETIC
+FG-03,Metformin 500 mg tablets,Tablet,BAD;AHD,Y,M-027,SYNTHETIC
+FG-03,Metformin 500 mg tablets,Tablet,BAD;AHD,Y,M-015,SYNTHETIC
+FG-04,Amoxicillin 500 mg capsules,Capsule,AHD,Y,M-003,SYNTHETIC
+FG-04,Amoxicillin 500 mg capsules,Capsule,AHD,Y,M-022,SYNTHETIC
+FG-04,Amoxicillin 500 mg capsules,Capsule,AHD,Y,M-025,SYNTHETIC
+FG-04,Amoxicillin 500 mg capsules,Capsule,AHD,Y,M-026,SYNTHETIC
+FG-05,Amoxicillin oral suspension,Dry syrup,AHD,Y,M-003,SYNTHETIC
+FG-05,Amoxicillin oral suspension,Dry syrup,AHD,Y,M-027,SYNTHETIC
+FG-06,Azithromycin 500 mg tablets,Tablet,BAD,Y,M-004,SYNTHETIC
+FG-06,Azithromycin 500 mg tablets,Tablet,BAD,Y,M-020,SYNTHETIC
+FG-06,Azithromycin 500 mg tablets,Tablet,BAD,Y,M-021,SYNTHETIC
+FG-06,Azithromycin 500 mg tablets,Tablet,BAD,Y,M-022,SYNTHETIC
+FG-06,Azithromycin 500 mg tablets,Tablet,BAD,Y,M-025,SYNTHETIC
+FG-06,Azithromycin 500 mg tablets,Tablet,BAD,Y,M-026,SYNTHETIC
+FG-06,Azithromycin 500 mg tablets,Tablet,BAD,Y,M-014,SYNTHETIC
+FG-07,Atorvastatin 10 mg tablets,Tablet,BAD;AHD,Y,M-005,SYNTHETIC
+FG-07,Atorvastatin 10 mg tablets,Tablet,BAD;AHD,Y,M-021,SYNTHETIC
+FG-07,Atorvastatin 10 mg tablets,Tablet,BAD;AHD,Y,M-024,SYNTHETIC
+FG-07,Atorvastatin 10 mg tablets,Tablet,BAD;AHD,Y,M-022,SYNTHETIC
+FG-07,Atorvastatin 10 mg tablets,Tablet,BAD;AHD,Y,M-025,SYNTHETIC
+FG-07,Atorvastatin 10 mg tablets,Tablet,BAD;AHD,Y,M-026,SYNTHETIC
+FG-07,Atorvastatin 10 mg tablets,Tablet,BAD;AHD,Y,M-016,SYNTHETIC
+FG-08,Ceftriaxone 1 g injection,Injection (powder),AHD,Y,M-006,SYNTHETIC
+FG-08,Ceftriaxone 1 g injection,Injection (powder),AHD,Y,M-028,SYNTHETIC
+FG-08,Ceftriaxone 1 g injection,Injection (powder),AHD,Y,M-029,SYNTHETIC
+FG-09,Pantoprazole 40 mg tablets,Tablet,BAD,N,M-007,SYNTHETIC
+FG-09,Pantoprazole 40 mg tablets,Tablet,BAD,N,M-020,SYNTHETIC
+FG-09,Pantoprazole 40 mg tablets,Tablet,BAD,N,M-023,SYNTHETIC
+FG-09,Pantoprazole 40 mg tablets,Tablet,BAD,N,M-025,SYNTHETIC
+FG-09,Pantoprazole 40 mg tablets,Tablet,BAD,N,M-026,SYNTHETIC
+FG-09,Pantoprazole 40 mg tablets,Tablet,BAD,N,M-017,SYNTHETIC
+FG-09,Pantoprazole 40 mg tablets,Tablet,BAD,N,M-018,SYNTHETIC
+FG-10,Oxytocin 5 IU/ml injection,Injection,AHD,Y,M-008,SYNTHETIC
+FG-10,Oxytocin 5 IU/ml injection,Injection,AHD,Y,M-028,SYNTHETIC
+FG-10,Oxytocin 5 IU/ml injection,Injection,AHD,Y,M-029,SYNTHETIC
+FG-11,Human insulin 40 IU/ml vials,Biologic injection,AHD,Y,M-009,SYNTHETIC
+FG-11,Human insulin 40 IU/ml vials,Biologic injection,AHD,Y,M-028,SYNTHETIC
+FG-11,Human insulin 40 IU/ml vials,Biologic injection,AHD,Y,M-029,SYNTHETIC
+FG-12,Metformin 1000 mg SR tablets,Tablet,AHD,Y,M-002,SYNTHETIC
+FG-12,Metformin 1000 mg SR tablets,Tablet,AHD,Y,M-023,SYNTHETIC
+FG-12,Metformin 1000 mg SR tablets,Tablet,AHD,Y,M-022,SYNTHETIC
+FG-12,Metformin 1000 mg SR tablets,Tablet,AHD,Y,M-027,SYNTHETIC
+FG-12,Metformin 1000 mg SR tablets,Tablet,AHD,Y,M-014,SYNTHETIC
+FG-12,Metformin 1000 mg SR tablets,Tablet,AHD,Y,M-019,SYNTHETIC
+API-IH-1,In-house amoxicillin API step,API step,AHD,Y,M-010,SYNTHETIC
+API-IH-2,In-house ceftriaxone API step,API step,AHD,Y,M-011,SYNTHETIC
+API-IH-3,In-house paracetamol API step,API step,BAD,Y,M-012,SYNTHETIC
+API-IH-4,In-house metformin API step,API step,BAD,Y,M-013,SYNTHETIC
