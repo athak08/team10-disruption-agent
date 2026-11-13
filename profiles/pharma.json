@@ -1,0 +1,77 @@
+{
+  "industry": "Pharma generics (pilot)",
+  "snapshot_date": "2026-10-20",
+  "full_flow_scenarios": ["S1", "S2", "S5"],
+  "scenario_names": {
+    "S1": "Route / chokepoint closure",
+    "S2": "Supplier quality / regulatory failure",
+    "S3": "Source-country policy change",
+    "S4": "Weather event",
+    "S5": "Cold-chain excursion",
+    "S6": "Demand spike / shortage"
+  },
+  "lookout": {
+    "portwatch_alert_ratio": 0.5,
+    "portwatch_probable_ratio": 0.6,
+    "weather_thresholds": {
+      "precipitation_sum mm": 115,
+      "wind_gusts_10m_max km/h": 90,
+      "snowfall_sum cm": 10,
+      "temperature_2m_max C": 45
+    },
+    "weather_radius_km": 200,
+    "name_match_confirmed": 0.85,
+    "name_match_possible": 0.5,
+    "chokepoint_keywords": {
+      "Hormuz": ["hormuz", "gulf services", "gulf calls", "gulf sailings", "jebel ali", "jubail", "dammam", "khor fakkan", "fujairah", "sohar"],
+      "Malacca": ["malacca"],
+      "Bab-el-Mandeb": ["red sea", "bab-el-mandeb", "bab el-mandeb"]
+    },
+    "scenario_keywords": {
+      "S5": ["logger", "excursion", "temperature alarm"],
+      "S3": ["export licens", "export control", "export curb", "environmental inspection", "inspection campaign", "lunar new year", "shut 3-4 weeks"],
+      "S4": ["cyclone", "typhoon", "monsoon", "flood", "heavy rain", "landslide"],
+      "S6": ["tender", "shortage", "dengue", "demand surge"],
+      "S1": ["hormuz", "suspension of gulf", "war-risk", "sailing", "vessel", "booking rolled", "rerout", "avoid hormuz", "anchored"]
+    },
+    "negative_keywords": ["resolved", "called off", "no change", "stable", "no impact", "not supply-chain relevant", "no disruption"],
+    "injection_patterns": [
+      "ignore (all )?(previous|prior) instructions",
+      "system note",
+      "mark all .* as delivered",
+      "e-?mail the (full )?contract",
+      "update .* in (the )?erp",
+      "auto-?approve",
+      "approve sup-\\d+ .*now"
+    ],
+    "out_of_scope_keywords": ["price revision", "price increase request", "update po price"],
+    "material_keywords": {
+      "M-001": ["paracetamol"], "M-002": ["metformin"], "M-003": ["amoxicillin"], "M-004": ["azithromycin"],
+      "M-005": ["atorvastatin"], "M-006": ["ceftriaxone"], "M-007": ["pantoprazole"], "M-008": ["oxytocin"],
+      "M-009": ["insulin"], "M-010": ["6-apa"], "M-011": ["7-aca"], "M-012": ["4-aminophenol"],
+      "M-013": ["dicyandiamide"], "M-014": ["methanol"], "M-015": ["isopropyl", "ipa "], "M-016": ["acetone"],
+      "M-017": ["ethyl acetate"], "M-018": ["dichloromethane"], "M-019": ["toluene"], "M-020": ["microcrystalline"],
+      "M-021": ["lactose"], "M-022": ["magnesium stearate"], "M-023": ["povidone"], "M-024": ["croscarmellose"],
+      "M-025": ["pvc"], "M-026": ["aluminium foil", "alu foil"], "M-027": ["hdpe"], "M-028": ["glass vial"], "M-029": ["stopper"]
+    },
+    "region_keywords": {
+      "hebei": "Hebei", "shandong": "Shandong", "zhejiang": "Zhejiang", "jiangsu": "Jiangsu",
+      "mumbai": "Mumbai", "ahmedabad": "Ahmedabad", "gujarat": ", GJ", "himachal": ", HP", "chinese": "China", "china": "China"
+    }
+  },
+  "analyst": {
+    "weights": {"cover_gap": 0.30, "delay": 0.20, "criticality": 0.20, "concentration": 0.15, "signal": 0.10, "pressure": 0.05},
+    "abc_points": {"A": 1.0, "B": 0.6, "C": 0.3},
+    "essential_bonus": 0.2,
+    "concentration_points": {"1": 1.0, "2": 0.5, "3+": 0.2},
+    "signal_points": {"confirmed": 1.0, "probable": 0.6, "possible": 0.3},
+    "gscpi_assumed": 1.0,
+    "delay_cap_days": 30,
+    "historical_delay_by_chokepoint_since": {"Hormuz": "2026-02-20"},
+    "tier_bands": {"green_below": 40, "red_above": 70}
+  },
+  "librarian": {
+    "fm_category_by_scenario": {"S1": "fm_covers_war_blockade", "S3": "fm_covers_govt_action"},
+    "past_cases": 3
+  }
+}
